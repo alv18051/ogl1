@@ -29,7 +29,7 @@ screen.blit(textsurface, (250, 250))
 rend = Renderer(screen)
 
 #message_display('Controles: wasd para moverse, flechas para mover luz, jl para rotar y zx para rotar camara, 12 para cambiar entre modo relleno y modo wireframe')
-pygame.image.load('animegirl.png')
+#pygame.image.load('animegirl.png')
 
 rend.setShaders(vertex_shader, fragment_shader)
 
